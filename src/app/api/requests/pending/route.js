@@ -8,5 +8,4 @@ export async function GET(){
         console.error(error)
         return NextResponse.json({error: 'Failed to get open requests'}, {status: 500});
     }
-
 }
